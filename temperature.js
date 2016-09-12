@@ -7,7 +7,7 @@ var Temperature = {
     }
 };
 
-var tempToday = 32;
+var tempToday = 82;
 var tempInCelsius = Math.round( Temperature.toCelsius( tempToday ) );
 
 var message = `Today’s temperature is ${tempToday}°F, which is ${tempInCelsius}°C.`;
